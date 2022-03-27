@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="schat" xml:space="preserve">
+    <value>Enters into chat mode. In chat mode all you type is understood to be your chat message.</value>
+  </data>
+  <data name="scrouch" xml:space="preserve">
+    <value>Crouch.</value>
+  </data>
+  <data name="sexit" xml:space="preserve">
+    <value>Exits from the current mode to default mode.If running in default mode, logs out.</value>
+  </data>
+  <data name="sfly" xml:space="preserve">
+    <value>You start flying.</value>
+  </data>
+  <data name="sfollow" xml:space="preserve">
+    <value>Start or stop following a user.</value>
+  </data>
+  <data name="shelp" xml:space="preserve">
+    <value>Print help message for commands and modes.</value>
+  </data>
+  <data name="sjump" xml:space="preserve">
+    <value>Jump.</value>
+  </data>
+  <data name="slocate" xml:space="preserve">
+    <value>Gives the coordinates of where you are.</value>
+  </data>
+  <data name="slogin" xml:space="preserve">
+    <value>Login to Secondlife.</value>
+  </data>
+  <data name="slogout" xml:space="preserve">
+    <value>Logsout and quits from Secondlife.</value>
+  </data>
+  <data name="smove" xml:space="preserve">
+    <value>Move to a person or object, or in a direction: west, east, north or south.</value>
+  </data>
+  <data name="smute" xml:space="preserve">
+    <value>Toggle Mute or unmute a user.</value>
+  </data>
+  <data name="srange" xml:space="preserve">
+    <value>Set the Range of how far you want to see, how many objects and people you want to see.</value>
+  </data>
+  <data name="sreset" xml:space="preserve">
+    <value>Resets current user login information. Use this when you want to re-login as a different user.</value>
+  </data>
+  <data name="ssay" xml:space="preserve">
+    <value>Say a message for everyone in the neighborhood to hear.</value>
+  </data>
+  <data name="ssit" xml:space="preserve">
+    <value>Sit on the ground or on an object.</value>
+  </data>
+  <data name="sstand" xml:space="preserve">
+    <value>Stand up.</value>
+  </data>
+  <data name="sstop" xml:space="preserve">
+    <value>Cancels a particular action.</value>
+  </data>
+  <data name="sstopflying" xml:space="preserve">
+    <value>You stop flying.</value>
+  </data>
+  <data name="steleport" xml:space="preserve">
+    <value>Teleport to a location.</value>
+  </data>
+  <data name="stest1" xml:space="preserve">
+    <value>Tests your basic command knowledge of navigation and talking.</value>
+    <comment>help string</comment>
+  </data>
+  <data name="stutorial1" xml:space="preserve">
+    <value>Teaches you how to navigate using basic commands move, sit, stand.</value>
+  </data>
+  <data name="swhere" xml:space="preserve">
+    <value>Finds out in which direction an object or a building or a person is.</value>
+  </data>
+  <data name="swhisper" xml:space="preserve">
+    <value>Whisper a message to an avatar.</value>
+  </data>
+  <data name="uchat" xml:space="preserve">
+    <value>To enter chat mode, type "chat". To exit type "exit".</value>
+  </data>
+  <data name="ucrouch" xml:space="preserve">
+    <value>To Crouch type "crouch"</value>
+  </data>
+  <data name="uexit" xml:space="preserve">
+    <value>Exits from the tutorial mode to default mode.If running in default mode, logs out and quits.
+To exit type in "exit"</value>
+  </data>
+  <data name="ufly" xml:space="preserve">
+    <value>To start flying type: "fly"</value>
+  </data>
+  <data name="ufollow" xml:space="preserve">
+    <value>To start following an avatar, type "follow avatar name"</value>
+  </data>
+  <data name="uhelp" xml:space="preserve">
+    <value>Type "help" to get a list of available all commands and modes or type "help command name" to get detailed help of a specific command or mode</value>
+  </data>
+  <data name="ujump" xml:space="preserve">
+    <value>To Jump type "jump"</value>
+  </data>
+  <data name="ulocate" xml:space="preserve">
+    <value>To locate the coordinates of yourself, type in "locate"</value>
+  </data>
+  <data name="ulogin" xml:space="preserve">
+    <value>To login to Second Life, type "login first name last name password"
+You can just type "login" to login as the avatar you previously logged in.</value>
+  </data>
+  <data name="ulogout" xml:space="preserve">
+    <value>To logout and quit Second Life, type "quit"</value>
+  </data>
+  <data name="umove" xml:space="preserve">
+    <value>Type "west/east/north/south" to move 5 meters in a direction. Or Type "west distance/east distance/north distance/south distance" to move a specific distance in that direction.
+To move to an avatar type "move to avatar name".
+To move to an object type "move to object name".</value>
+  </data>
+  <data name="umute" xml:space="preserve">
+    <value>To Mute an avatar, type "Mute avatar name"; to Mute all, type "mute all"</value>
+  </data>
+  <data name="urange" xml:space="preserve">
+    <value>Set the Range of how far you want to see, how many objects and people you want to see at a time.
+You can type "range 'distance' 'number of objects' 'number of people'</value>
+  </data>
+  <data name="ureset" xml:space="preserve">
+    <value>Reset when you want to re-login as a different user.
+To reset current login information type "reset"</value>
+  </data>
+  <data name="usay" xml:space="preserve">
+    <value>To communicate to everyone near you, type "say message".
+Or simply begin your sentence with a double quote.</value>
+  </data>
+  <data name="usit" xml:space="preserve">
+    <value>To sit on ground, type "sit"
+To sit on an object, type "sit on object name"</value>
+  </data>
+  <data name="ustand" xml:space="preserve">
+    <value>To Stand up, type "stand"</value>
+  </data>
+  <data name="ustop" xml:space="preserve">
+    <value>Stop works with following arguments: 
+Type "stop following" to stop following an avatar you were following.
+Type "stop flying" to stop flying.
+Type "stop mute avatar name" or "stop mute all" to unmute.</value>
+  </data>
+  <data name="ustopflying" xml:space="preserve">
+    <value>To stop flying type: "stop-flying"</value>
+  </data>
+  <data name="uteleport" xml:space="preserve">
+    <value>To teleport to a location, type "teleport to location name". Some location names of your interest can be: Help Island Public, Fishermans Cove, Virtual Ability</value>
+  </data>
+  <data name="utest1" xml:space="preserve">
+    <value>Tests your basic command knowledge of navigation and talking.</value>
+    <comment>help string</comment>
+  </data>
+  <data name="ututorial1" xml:space="preserve">
+    <value>Teaches you the basic commands of navigation and communication in Second Life.</value>
+  </data>
+  <data name="uwhere" xml:space="preserve">
+    <value>To find out where an object, building or a person is, type "where is object/person name"</value>
+  </data>
+  <data name="uwhisper" xml:space="preserve">
+    <value>To whisper a message only to a specific avatar, type "whisper to 'avatar name' 'message' "
+This starts your session with the avatar and then you can just type "whisper message" to whisper to that avatar.</value>
+  </data>
+</root>

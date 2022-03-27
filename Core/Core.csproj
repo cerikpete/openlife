@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{89F64420-F088-476B-8E6C-8B94236A682D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Core</RootNamespace>
+    <AssemblyName>Core</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgentManager.cs" />
+    <Compile Include="AgentManagerCamera.cs" />
+    <Compile Include="AgentManagerMovement.cs" />
+    <Compile Include="AgentThrottle.cs" />
+    <Compile Include="Animations.cs" />
+    <Compile Include="AppearanceManager.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="AssetManager.cs" />
+    <Compile Include="AssetTypes.cs" />
+    <Compile Include="Avatar.cs" />
+    <Compile Include="AvatarManager.cs" />
+    <Compile Include="BakeLayer.cs" />
+    <Compile Include="BitPack.cs" />
+    <Compile Include="BlockingQueue.cs" />
+    <Compile Include="Capabilities\CapsBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Capabilities\CapsClient.cs" />
+    <Compile Include="Capabilities\CapsListener.cs" />
+    <Compile Include="Capabilities\EventQueueClient.cs" />
+    <Compile Include="Capabilities\EventQueueListener.cs" />
+    <Compile Include="Caps.cs" />
+    <Compile Include="CapsToPacket.cs" />
+    <Compile Include="CoordinateFrame.cs" />
+    <Compile Include="DirectoryManager.cs" />
+    <Compile Include="EstateTools.cs" />
+    <Compile Include="EventDictionary.cs" />
+    <Compile Include="FriendsManager.cs" />
+    <Compile Include="GridManager.cs" />
+    <Compile Include="GroupManager.cs" />
+    <Compile Include="Helpers.cs" />
+    <Compile Include="Image.cs" />
+    <Compile Include="InternalDictionary.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="InventoryManager.cs" />
+    <Compile Include="InventoryNode.cs" />
+    <Compile Include="InventoryNodeDictionary.cs" />
+    <Compile Include="LLObject.cs" />
+    <Compile Include="LLSD\BinaryLLSD.cs" />
+    <Compile Include="LLSD\LLSD.cs" />
+    <Compile Include="LLSD\NotationLLSD.cs" />
+    <Compile Include="LLSD\XmlLLSD.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="NameValue.cs" />
+    <Compile Include="NetworkManager.cs" />
+    <Compile Include="ObjectManager.cs" />
+    <Compile Include="ObjectPoolBase.cs" />
+    <Compile Include="OpenJPEG.cs" />
+    <Compile Include="ParcelManager.cs" />
+    <Compile Include="ParticleSystem.cs" />
+    <Compile Include="Permissions.cs" />
+    <Compile Include="Prims.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProtocolManager.cs" />
+    <Compile Include="ReaderWriterLock.cs" />
+    <Compile Include="SecondLife.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Simulator.cs" />
+    <Compile Include="SoundManager.cs" />
+    <Compile Include="TerrainManager.cs" />
+    <Compile Include="TextureEntry.cs" />
+    <Compile Include="TGALoader.cs" />
+    <Compile Include="ThreadUtil.cs" />
+    <Compile Include="Types.cs" />
+    <Compile Include="UDPBase.cs" />
+    <Compile Include="_Packets_.cs" />
+    <Compile Include="_VisualParam_.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libsecondlife.build" />
+    <None Include="libsecondlife.csproj" />
+    <None Include="LLSD\xml-llsd.dtd" />
+    <None Include="LLSD\xml-llsd.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="libsecondlife.sln" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
